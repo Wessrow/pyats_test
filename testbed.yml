@@ -1,0 +1,15 @@
+testbed:
+  name: Test
+  credentials:
+    default:
+      username: "%ENV{USER}"
+      password: "%ENV{PASS}"
+
+devices:
+  R01:
+    connections:
+      cli:
+        ip: 10.0.13.81
+        protocol: ssh
+    os: iosxe
+    type: iosxe
