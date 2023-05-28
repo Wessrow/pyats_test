@@ -16,7 +16,7 @@ class common(aetest.CommonSetup):
         """asdf"""
         testbed.connect(log_stdout=False)
 
-class IsDefaultRoute(aetest.Testcase):
+class TestDefaultRoute(aetest.Testcase):
 
     @aetest.setup
     def setup(self, testbed):
